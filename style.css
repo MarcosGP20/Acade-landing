@@ -60,6 +60,12 @@ li a {
   color: #f0f0f0;
 }
 
+.noticias-tittle {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #24afe6;
+}
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
