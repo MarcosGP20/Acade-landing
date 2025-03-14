@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,20 +10,32 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Racing club - Sitio oficial</title>
   </head>
   <body>
     <header>
       <nav>
-        <div class="navbar-container">
+        <div class="navbar">
           <div class="logo">
-            <img src="/img/racing-club.png" alt="Logo Racing" class="escudo" />
+            <a href="#"
+              ><img
+                src="/img/racing-club.png"
+                alt="Logo Racing"
+                class="logo-img"
+            /></a>
           </div>
 
           <ul class="nav-links">
-            <li>Inicio</li>
-            <li>El club</li>
-            <li>Socios</li>
+            <li><a href="#" aria-label="Ir al inicio">Inicio</a></li>
+            <li>
+              <a href="#" aria-label="Información sobre el Equipo">Equipo</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Información sobre el club">El club</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Información para los socios">Socios</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -31,6 +43,6 @@
     <section class="noticias"></section>
     <section class="resultados"></section>
     <section class="anuncios"></section>
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
