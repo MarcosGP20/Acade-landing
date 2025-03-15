@@ -60,7 +60,7 @@ li a {
   color: #f0f0f0;
 }
 .noticias {
-  max-width: 1500px; /* Ajusta según necesidad */
+  max-width: 1400px;
   margin: 2rem auto;
   padding: 1rem;
   display: flex;
