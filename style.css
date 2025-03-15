@@ -156,6 +156,11 @@ li a {
   font-size: 1.4rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
+.anuncio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 768px) {
   .navbar-container {
