@@ -168,4 +168,20 @@ li a {
     flex-direction: column;
     gap: 1rem;
   }
+  .noticias {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .noticia-principal {
+    order: 2;
+  }
+
+  .noticias-secundarias {
+    order: 1;
+  }
+  .noticia-principal h3 {
+    flex: 1;
+    bottom: 10%;
+  }
 }
