@@ -162,6 +162,25 @@ li a {
   align-items: center;
 }
 
+.jugadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  background: #fafafa;
+  width: 1200px;
+  height: 1000px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.jugadores .titulo-plantel {
+  text-align: center;
+  font-size: 2rem;
+  color: #24afe6;
+  margin: 1rem;
+}
+
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
